@@ -38,7 +38,7 @@ class AIAgents:
     def __init__(self, api_key):
         self.client = Together(api_key=api_key)
 
-agents = AIAgents(api_key="7b54dff2b3e9402fcb7bca0a3b1c0ea67514b7321549d7c036885c9ec0435ee0")
+agents = AIAgents(api_key=keys)
 
 PROMPT_SYS_BASE = (
     "You are a world-class financial analyst. Follow these rules exactly:\n"
